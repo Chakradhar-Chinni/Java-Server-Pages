@@ -11,3 +11,6 @@ Error
 		<%= exception.getMessage() %>
 </body>
 </html>
+
+
+<%--- Identify the isErrorPage attribute is set to true in directive tag ---%>
