@@ -11,10 +11,13 @@
 		 
 	     <%
 	     	  out.println("Scriptlet Tag");
-          out.println("From A.jsp");
+        	  out.println("From A.jsp");
 	     %>
 	     
        <%@ include file="B.jsp" %>
 	
 	</body>
 </html>
+
+<%-- when A.jsp is called it also calls the file mentioned in the @include file tag
+This can help in reducing the lines of code --%> 
