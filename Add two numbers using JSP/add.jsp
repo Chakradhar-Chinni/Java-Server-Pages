@@ -13,3 +13,6 @@
 		%>
 </body>
 </html>
+
+Java code should be provide in delimeter
+request object is an implict object (as JSP provides default)
