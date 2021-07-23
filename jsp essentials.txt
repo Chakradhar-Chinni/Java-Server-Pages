@@ -1,0 +1,26 @@
+<%
+	This is a directive tag, all the packages which are to be imported is declared in this tag
+	2 ways
+<%@ page import="java.util.*" %>
+<%@ page import="java.io.*" %>
+<%@ page import="java.net.*" %>
+
+Or
+<%@ page import="java.util.*, java.io.*, java.net.*" %>	
+%>
+
+<%!
+	This is declarative tag for declaring methods,instance variables
+	Int i;
+	Static int func(int a,int b){ }
+%> 
+
+<%
+	This is scriptlet tag, all the code here goes to service method
+	JSP provides many implicit objects like request,response objects(benefit & reason to use   
+           JSP)
+%>
+
+<%=
+		THis is expression tag, anything in scriptlet tag goes to out.println() in Servlet
+%>
